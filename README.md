@@ -1,8 +1,8 @@
 # BOOLEAN_FUNCTION_MINIMIZATION
 
-## Developed by: Simon Malachi S
+# Developed by: Simon Malachi S
 
-## RegisterNumber: 212224040318
+# RegisterNumber: 212224040318
 
 **AIM:**
 
