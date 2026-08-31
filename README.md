@@ -1,5 +1,9 @@
 # BOOLEAN_FUNCTION_MINIMIZATION
 
+## Developed by: Simon Malachi S
+
+## RegisterNumber: 212224040318
+
 **AIM:**
 
 To implement the given logic function verify its operation in Quartus using Verilog programming.
@@ -30,21 +34,39 @@ Hardware – PCs, Cyclone II , USB flasher
 
 5.	For different input combinations generate the timing diagram.
 
+PROGRAM:
 
-**Program:**
+module exe2(a,b,c,d,f1,w,x,y,z,f2);
 
-/* Program to implement the given logic function and to verify its operations in quartus using Verilog programming. 
+input a,b,c,d,w,x,y,z;
 
-Developed by: RegisterNumber:*/
+output f1,f2;
+
+assign f1=((~b&~d)| (~a&b&d)| (a&b&~c))
+
+; assign f2=((~y&z)|(x&y)|(w&y)); 
+
+endmodule
+
+
 
 
 **RTL realization**
 
-**Output:**
+
+<img width="1046" height="536" alt="image" src="https://github.com/user-attachments/assets/51b77f45-ffa7-49d1-a79c-6effae91b40c" />
+
+
+
 
 **RTL**
 
-**Timing Diagram**
+
+<img width="1920" height="1022" alt="image" src="https://github.com/user-attachments/assets/bc4dc540-7b8f-481b-91ec-849a3a64cc87" />
+
+
+
+
 
 **Result:**
 
